@@ -12,7 +12,7 @@ struct SehamLabApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            SwiftUIView1()
+            HomeView()
             
             
         }

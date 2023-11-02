@@ -1,5 +1,5 @@
 //
-//  SwiftUIView5.swift
+//  SwiftUIView3.swift
 //  SehamLab
 //
 //  Created by Seham almarshedi on 08/04/1445 AH.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIView5: View {
+struct Doctor2View: View {
     var body: some View {
         
         VStack (spacing: 0) {
@@ -15,7 +15,7 @@ struct SwiftUIView5: View {
                 .frame(maxWidth: .infinity , alignment: .trailing)
                 .foregroundColor(.gray)
                 .padding()
-            Image("man1")
+            Image("man2")
                 .resizable()
                 .frame(width: 350 , height:450)
             ZStack{
@@ -27,7 +27,7 @@ struct SwiftUIView5: View {
                         
                     )
                 VStack{
-                    Text("Get connect our Online Consultation")
+                    Text("Find a lot of specialist doctors in one place")
                         .font(.title)
                         .fontWeight(.bold)
                     
@@ -58,10 +58,13 @@ struct SwiftUIView5: View {
             }//: ZSTACK
             .padding(.horizontal)
                         }}}
+    //Spacer()
+    
+    #Preview {
+   
+    
+        Doctor2View()
 
-struct ShowView5: PreviewProvider {
-    static var previews: some View {
-        SwiftUIView5()
-    }
-}
+        }
+    
 

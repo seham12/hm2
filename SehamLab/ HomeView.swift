@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-struct SwiftUIView1: View {
+struct  HomeView: View {
     var body: some View {
     
         
@@ -39,10 +39,5 @@ struct SwiftUIView1: View {
         //}
   
 #Preview {
-    SwiftUIView1()
-}
-struct ShowView1: PreviewProvider {
-  static var previews: some View {
-     SwiftUIView1()
-   }
+    HomeView()
 }

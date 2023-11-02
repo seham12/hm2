@@ -7,38 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A0E8E5F2AE812D10091D21C /* SwiftUIView9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E8E5E2AE812D10091D21C /* SwiftUIView9.swift */; };
+		6A0E8E5F2AE812D10091D21C /*    Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E8E5E2AE812D10091D21C /*    Success.swift */; };
 		6A0E8E612AE842FE0091D21C /* OnbordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E8E602AE842FE0091D21C /* OnbordingView.swift */; };
 		6A103B782AE5BA4F00DB3927 /* SehamLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B772AE5BA4F00DB3927 /* SehamLabApp.swift */; };
 		6A103B7A2AE5BA4F00DB3927 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B792AE5BA4F00DB3927 /* ContentView.swift */; };
 		6A103B7C2AE5BA5100DB3927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A103B7B2AE5BA5100DB3927 /* Assets.xcassets */; };
 		6A103B7F2AE5BA5100DB3927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A103B7E2AE5BA5100DB3927 /* Preview Assets.xcassets */; };
-		6A103B862AE5BA7E00DB3927 /* SwiftUIView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B852AE5BA7D00DB3927 /* SwiftUIView1.swift */; };
-		6A103B882AE5BD7C00DB3927 /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B872AE5BD7C00DB3927 /* SwiftUIView2.swift */; };
-		6A103B8A2AE6295300DB3927 /* SwiftUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B892AE6295300DB3927 /* SwiftUIView3.swift */; };
-		6A103B8C2AE6297000DB3927 /* SwiftUIView8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B8B2AE6297000DB3927 /* SwiftUIView8.swift */; };
-		6A103B8E2AE6298800DB3927 /* SwiftUIView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B8D2AE6298800DB3927 /* SwiftUIView5.swift */; };
-		6A103B902AE629A100DB3927 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B8F2AE629A100DB3927 /* SwiftUIView.swift */; };
-		6A103BE62AE6C4B000DB3927 /* SwiftUIView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103BE52AE6C4B000DB3927 /* SwiftUIView6.swift */; };
-		6A103BE82AE780E000DB3927 /* SwiftUIView7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103BE72AE780E000DB3927 /* SwiftUIView7.swift */; };
+		6A103B862AE5BA7E00DB3927 /*  HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B852AE5BA7D00DB3927 /*  HomeView.swift */; };
+		6A103B882AE5BD7C00DB3927 /* Doctor1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B872AE5BD7C00DB3927 /* Doctor1View.swift */; };
+		6A103B8A2AE6295300DB3927 /*     Doctor2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B892AE6295300DB3927 /*     Doctor2View.swift */; };
+		6A103B8C2AE6297000DB3927 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B8B2AE6297000DB3927 /* Welcome.swift */; };
+		6A103B8E2AE6298800DB3927 /*     Doctor3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B8D2AE6298800DB3927 /*     Doctor3View.swift */; };
+		6A103B902AE629A100DB3927 /* LogineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103B8F2AE629A100DB3927 /* LogineView.swift */; };
+		6A103BE62AE6C4B000DB3927 /* ForgotPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103BE52AE6C4B000DB3927 /* ForgotPhone.swift */; };
+		6A103BE82AE780E000DB3927 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A103BE72AE780E000DB3927 /* SignUp.swift */; };
+		6A6993642AF272300081E24D /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993632AF272300081E24D /* LoginPage.swift */; };
+		6A6993662AF3045A0081E24D /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993652AF3045A0081E24D /* ForgotPassword.swift */; };
+		6A6993682AF30B650081E24D /* VerificationeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993672AF30B650081E24D /* VerificationeCode.swift */; };
+		6A69936A2AF30BAD0081E24D /* CreatnNewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993692AF30BAD0081E24D /* CreatnNewPassword.swift */; };
+		6A69936C2AF316B10081E24D /*  SuccessNewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69936B2AF316B10081E24D /*  SuccessNewPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A0E8E5E2AE812D10091D21C /* SwiftUIView9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView9.swift; sourceTree = "<group>"; };
+		6A0E8E5E2AE812D10091D21C /*    Success.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "   Success.swift"; sourceTree = "<group>"; };
 		6A0E8E602AE842FE0091D21C /* OnbordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingView.swift; sourceTree = "<group>"; };
 		6A103B742AE5BA4F00DB3927 /* SehamLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SehamLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A103B772AE5BA4F00DB3927 /* SehamLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SehamLabApp.swift; sourceTree = "<group>"; };
 		6A103B792AE5BA4F00DB3927 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A103B7B2AE5BA5100DB3927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A103B7E2AE5BA5100DB3927 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6A103B852AE5BA7D00DB3927 /* SwiftUIView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView1.swift; sourceTree = "<group>"; };
-		6A103B872AE5BD7C00DB3927 /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
-		6A103B892AE6295300DB3927 /* SwiftUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView3.swift; sourceTree = "<group>"; };
-		6A103B8B2AE6297000DB3927 /* SwiftUIView8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView8.swift; sourceTree = "<group>"; };
-		6A103B8D2AE6298800DB3927 /* SwiftUIView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView5.swift; sourceTree = "<group>"; };
-		6A103B8F2AE629A100DB3927 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		6A103BE52AE6C4B000DB3927 /* SwiftUIView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView6.swift; sourceTree = "<group>"; };
-		6A103BE72AE780E000DB3927 /* SwiftUIView7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView7.swift; sourceTree = "<group>"; };
+		6A103B852AE5BA7D00DB3927 /*  HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " HomeView.swift"; sourceTree = "<group>"; };
+		6A103B872AE5BD7C00DB3927 /* Doctor1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor1View.swift; sourceTree = "<group>"; };
+		6A103B892AE6295300DB3927 /*     Doctor2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "    Doctor2View.swift"; sourceTree = "<group>"; };
+		6A103B8B2AE6297000DB3927 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		6A103B8D2AE6298800DB3927 /*     Doctor3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "    Doctor3View.swift"; sourceTree = "<group>"; };
+		6A103B8F2AE629A100DB3927 /* LogineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogineView.swift; sourceTree = "<group>"; };
+		6A103BE52AE6C4B000DB3927 /* ForgotPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPhone.swift; sourceTree = "<group>"; };
+		6A103BE72AE780E000DB3927 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		6A6993632AF272300081E24D /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		6A6993652AF3045A0081E24D /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		6A6993672AF30B650081E24D /* VerificationeCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationeCode.swift; sourceTree = "<group>"; };
+		6A6993692AF30BAD0081E24D /* CreatnNewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatnNewPassword.swift; sourceTree = "<group>"; };
+		6A69936B2AF316B10081E24D /*  SuccessNewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SuccessNewPassword.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,15 +85,20 @@
 				6A103B792AE5BA4F00DB3927 /* ContentView.swift */,
 				6A103B7B2AE5BA5100DB3927 /* Assets.xcassets */,
 				6A103B7D2AE5BA5100DB3927 /* Preview Content */,
-				6A103B852AE5BA7D00DB3927 /* SwiftUIView1.swift */,
-				6A103B872AE5BD7C00DB3927 /* SwiftUIView2.swift */,
-				6A103B892AE6295300DB3927 /* SwiftUIView3.swift */,
-				6A103B8D2AE6298800DB3927 /* SwiftUIView5.swift */,
-				6A103B8F2AE629A100DB3927 /* SwiftUIView.swift */,
-				6A103BE52AE6C4B000DB3927 /* SwiftUIView6.swift */,
-				6A103BE72AE780E000DB3927 /* SwiftUIView7.swift */,
-				6A103B8B2AE6297000DB3927 /* SwiftUIView8.swift */,
-				6A0E8E5E2AE812D10091D21C /* SwiftUIView9.swift */,
+				6A103B852AE5BA7D00DB3927 /*  HomeView.swift */,
+				6A103B872AE5BD7C00DB3927 /* Doctor1View.swift */,
+				6A103B892AE6295300DB3927 /*     Doctor2View.swift */,
+				6A103B8D2AE6298800DB3927 /*     Doctor3View.swift */,
+				6A103B8F2AE629A100DB3927 /* LogineView.swift */,
+				6A6993632AF272300081E24D /* LoginPage.swift */,
+				6A103B8B2AE6297000DB3927 /* Welcome.swift */,
+				6A103BE72AE780E000DB3927 /* SignUp.swift */,
+				6A0E8E5E2AE812D10091D21C /*    Success.swift */,
+				6A6993652AF3045A0081E24D /* ForgotPassword.swift */,
+				6A103BE52AE6C4B000DB3927 /* ForgotPhone.swift */,
+				6A6993672AF30B650081E24D /* VerificationeCode.swift */,
+				6A6993692AF30BAD0081E24D /* CreatnNewPassword.swift */,
+				6A69936B2AF316B10081E24D /*  SuccessNewPassword.swift */,
 				6A0E8E602AE842FE0091D21C /* OnbordingView.swift */,
 			);
 			path = SehamLab;
@@ -168,17 +183,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A103B7A2AE5BA4F00DB3927 /* ContentView.swift in Sources */,
-				6A103B882AE5BD7C00DB3927 /* SwiftUIView2.swift in Sources */,
-				6A103BE82AE780E000DB3927 /* SwiftUIView7.swift in Sources */,
-				6A103B902AE629A100DB3927 /* SwiftUIView.swift in Sources */,
-				6A103B8A2AE6295300DB3927 /* SwiftUIView3.swift in Sources */,
-				6A0E8E5F2AE812D10091D21C /* SwiftUIView9.swift in Sources */,
+				6A6993682AF30B650081E24D /* VerificationeCode.swift in Sources */,
+				6A103B882AE5BD7C00DB3927 /* Doctor1View.swift in Sources */,
+				6A103BE82AE780E000DB3927 /* SignUp.swift in Sources */,
+				6A103B902AE629A100DB3927 /* LogineView.swift in Sources */,
+				6A6993642AF272300081E24D /* LoginPage.swift in Sources */,
+				6A103B8A2AE6295300DB3927 /*     Doctor2View.swift in Sources */,
+				6A0E8E5F2AE812D10091D21C /*    Success.swift in Sources */,
 				6A103B782AE5BA4F00DB3927 /* SehamLabApp.swift in Sources */,
-				6A103B862AE5BA7E00DB3927 /* SwiftUIView1.swift in Sources */,
-				6A103B8E2AE6298800DB3927 /* SwiftUIView5.swift in Sources */,
-				6A103B8C2AE6297000DB3927 /* SwiftUIView8.swift in Sources */,
-				6A103BE62AE6C4B000DB3927 /* SwiftUIView6.swift in Sources */,
+				6A103B862AE5BA7E00DB3927 /*  HomeView.swift in Sources */,
+				6A103B8E2AE6298800DB3927 /*     Doctor3View.swift in Sources */,
+				6A103B8C2AE6297000DB3927 /* Welcome.swift in Sources */,
+				6A69936A2AF30BAD0081E24D /* CreatnNewPassword.swift in Sources */,
+				6A6993662AF3045A0081E24D /* ForgotPassword.swift in Sources */,
+				6A103BE62AE6C4B000DB3927 /* ForgotPhone.swift in Sources */,
 				6A0E8E612AE842FE0091D21C /* OnbordingView.swift in Sources */,
+				6A69936C2AF316B10081E24D /*  SuccessNewPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,26 +12,31 @@ struct OnbordingView: View {
         TabView {
             ContentView()
             
-            SwiftUIView1()
+            HomeView()
             
-            SwiftUIView2()
-           
-            SwiftUIView3()
-          
-            SwiftUIView5()
+            Doctor1View()
+
+            Doctor2View()
+
+            Doctor3View()
+
+            LogineView()
             
-            SwiftUIView()
+            SignUp()
             
-            SwiftUIView6()
-    
-            SwiftUIView7()
+            Welcome()
             
-            SwiftUIView8()
+            Success()
             
-            SwiftUIView9()
+            ForgotPassword()
             
-           
+            ForgotPhone()
+            
+            VerificationeCode()
+            CreatnNewPassword()
+            _SuccessNewPassword()
         }
+        
         .tabViewStyle(.page(indexDisplayMode: .always))
         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
     }

@@ -1,19 +1,21 @@
 //
-//  SwiftUIView2.swift
+//  SwiftUIView5.swift
 //  SehamLab
 //
-//  Created by Seham almarshedi on 07/04/1445 AH.
+//  Created by Seham almarshedi on 08/04/1445 AH.
 //
 
 import SwiftUI
-struct SwiftUIView2: View {
-    var body: some View{
+
+struct Doctor3View: View {
+    var body: some View {
+        
         VStack (spacing: 0) {
             Button("Skip"){}
                 .frame(maxWidth: .infinity , alignment: .trailing)
                 .foregroundColor(.gray)
                 .padding()
-            Image("women")
+            Image("man1")
                 .resizable()
                 .frame(width: 350 , height:450)
             ZStack{
@@ -25,7 +27,7 @@ struct SwiftUIView2: View {
                         
                     )
                 VStack{
-                    Text("Consult only with a doctor you trust")
+                    Text("Get connect our Online Consultation")
                         .font(.title)
                         .fontWeight(.bold)
                     
@@ -56,19 +58,9 @@ struct SwiftUIView2: View {
             }//: ZSTACK
             .padding(.horizontal)
                         }}}
-        
-                        
-                        
-                        
-            
-  
-    
-    
-    //  #Preview {
-    // SwiftUIView2()
-    
-    struct ShowView2 : PreviewProvider {
-        static var previews: some View {
-            SwiftUIView2()
-        }}
+#Preview {
 
+
+    Doctor3View()
+
+    }
