@@ -100,39 +100,82 @@ struct Success
                         }
                         
                     } .padding()
-                    
+                }
+                
+            }
+            
+        }
+            VStack{
+                ZStack{
                     
                     Rectangle()
-                        .fill(.gradiant)
-                        .ignoresSafeArea()
+                        .foregroundColor(.gradiant)
+                        .frame(width: 350, height:350)
+                        .background(Color.white)
                     
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .cornerRadius(30)
                     
-                    Rectangle()
-                        .fill(.white)
-                        .frame(width: 350, height: 430)
-                        .cornerRadius(40)
-                        .padding(.bottom,30)
-                    VStack{
-                        Image(systemName: "checkmark.circle.fill")
-                            .resizable()
-                            .frame(width: 90, height: 90)
-                            .foregroundColor(Color.red)
-                            .background(Color.gray)
-                            .cornerRadius(60)
+                    Image(systemName: "checkmark.circle.fill")
+                        .resizable()
+                        .frame(width: 90, height: 90)
+                        .foregroundColor(Color.gradiant)
+                        .background(Color.color)
+                        .cornerRadius(60)
+                        .padding(.bottom,200)
+                    
+                    Text("Success")
+                        .font(.title)
+                        .fontWeight(.bold)
+                    Text("Your account has been succesfully registered")
+                    // .frame(width: 340)
+                        .font(.title2)
+                        .foregroundColor(.gray)
+                        .multilineTextAlignment(.center)
+                        .padding(.top,100)
+                    Button(action: {
                         
-                        Text("Success")
-                            .font(.title)
-                            .fontWeight(.bold)
-                        Text("Your account has been succesfully registered")
-                            .frame(width: 340)
-                            .font(.title2)
-                            .foregroundColor(.blue)
-                            .multilineTextAlignment(.center)
-                        
-                        
-                    }}
-            }}}}
+                    }) {
+                        Text("Login in")
+                            .font(.title2).bold()
+                    }
+                    .frame(width:150 , height: 50)
+                    // .frame(minWidth: 0, maxWidth: .infinity)
+                    
+                    // .padding(.horizontal)
+                    .background(Color.color)
+                    .foregroundColor(.white)
+                    .cornerRadius(30)
+                    .padding(.top,250)
+                }
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+            }
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            
+            
+            
+            
+            
+            
+        }
+    }
+    
+
 
 
 #Preview {

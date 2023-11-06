@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct VerificationeCode: View {
+    @State private var number = ""
+
     var body: some View {
         NavigationStack{
             
@@ -25,30 +27,42 @@ struct VerificationeCode: View {
                         
                         Text("Enter code that we sent to you number 0828188***  ")
                             .font(.title3)
-                            .foregroundColor(Color.gray)
+                        .foregroundColor(Color.gray)}
                         HStack{
-                            Image(systemName: "square")
-                                
-                                .padding(.bottom,25)
-                                .foregroundColor(.color)
-                                .frame(width: 50, height: 50)
                             
-                            Image(systemName: "square")
-                                
-                                .padding(.bottom,25)
-                                .foregroundColor(.color)
-                                .frame(width: 50, height: 50)
+                            SecureField("", text: $number)
+                            // .textFieldStyle()
+                                .frame(width:40 , height: 20)
+                                .padding()
+                                .background(Color.white)
+                                .cornerRadius(15)
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                .stroke(Color.color, lineWidth: 1))
+
+                            SecureField("", text: $number)
+                            // .textFieldStyle()
+                                .frame(width:40 , height: 20)
+                                .padding()
+                                .background(Color.white)
+                                .cornerRadius(15)
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                .stroke(Color.color, lineWidth: 1))
+
                             
-                            Image(systemName: "square")
-                            
-                                .padding(.bottom,25)
-                                .foregroundColor(.color)
-                                .frame(width: 50, height: 50)
-                        
+                            SecureField("", text: $number)
+                            // .textFieldStyle()
+                                .frame(width:40 , height: 20)
+                                .padding()
+                                .background(Color.white)
+                                .cornerRadius(15)
+                                .background(RoundedRectangle(cornerRadius: 30)
+                                    .stroke(Color.color, lineWidth:1 ))
+
+
                             
                         }
                         
-                    }
+                    
                         
                         ZStack{
                             

@@ -47,13 +47,13 @@ struct LoginPage: View {
                                 .background(Color.gradiant)
                                 .cornerRadius(30)
                                 .background(RoundedRectangle(cornerRadius: 30)
-                            .stroke(passwordError.isEmpty ? .black : .red ,lineWidth: 1)
+                            .stroke(passwordError.isEmpty ? .black : .red ,lineWidth:1)
 
                                     
                                 )
                             
                         }
-                        
+                                            
                         
                        
                         Button(action: {

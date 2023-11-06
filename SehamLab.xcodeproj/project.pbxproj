@@ -26,6 +26,25 @@
 		6A6993682AF30B650081E24D /* VerificationeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993672AF30B650081E24D /* VerificationeCode.swift */; };
 		6A69936A2AF30BAD0081E24D /* CreatnNewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993692AF30BAD0081E24D /* CreatnNewPassword.swift */; };
 		6A69936C2AF316B10081E24D /*  SuccessNewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69936B2AF316B10081E24D /*  SuccessNewPassword.swift */; };
+		6A69938C2AF396050081E24D /* HomeViwe1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69938B2AF396050081E24D /* HomeViwe1.swift */; };
+		6A69938E2AF3A5540081E24D /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69938D2AF3A5540081E24D /* HomeView2.swift */; };
+		6A6993B42AF5D84E0081E24D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993B32AF5D84E0081E24D /* MapView.swift */; };
+		6A6993B62AF60C1E0081E24D /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993B52AF60C1E0081E24D /* CallView.swift */; };
+		6A6993B82AF6293F0081E24D /* VidoeCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993B72AF6293F0081E24D /* VidoeCall.swift */; };
+		6A6993BA2AF666CD0081E24D /* FindDoctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993B92AF666CD0081E24D /* FindDoctors.swift */; };
+		6A6993BC2AF666FA0081E24D /* DoctorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993BB2AF666FA0081E24D /* DoctorDetail.swift */; };
+		6A6993BE2AF6674D0081E24D /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993BD2AF6674D0081E24D /* Appointment.swift */; };
+		6A6993C02AF668080081E24D /* BookingDoctorSuccess .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993BF2AF668080081E24D /* BookingDoctorSuccess .swift */; };
+		6A6993C22AF6683F0081E24D /* ChatwithDoctor .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993C12AF6683F0081E24D /* ChatwithDoctor .swift */; };
+		6A6993C42AF6689B0081E24D /* DrugsDetail .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993C32AF6689B0081E24D /* DrugsDetail .swift */; };
+		6A6993C62AF668EE0081E24D /* MessageHistory .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993C52AF668EE0081E24D /* MessageHistory .swift */; };
+		6A6993C82AF669A40081E24D /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993C72AF669A40081E24D /* Articles.swift */; };
+		6A6993CA2AF66ABB0081E24D /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993C92AF66ABB0081E24D /* ScheduleData.swift */; };
+		6A6993CC2AF66B060081E24D /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993CB2AF66B060081E24D /* Pharmacy.swift */; };
+		6A6993CE2AF66BE10081E24D /* MyCart .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993CD2AF66BE10081E24D /* MyCart .swift */; };
+		6A6993D02AF66C250081E24D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993CF2AF66C250081E24D /* ProfileView.swift */; };
+		6A6993D22AF66C6A0081E24D /* MyCart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993D12AF66C6A0081E24D /* MyCart1.swift */; };
+		6A6993D42AF66C8A0081E24D /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6993D32AF66C8A0081E24D /* LogOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +68,25 @@
 		6A6993672AF30B650081E24D /* VerificationeCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationeCode.swift; sourceTree = "<group>"; };
 		6A6993692AF30BAD0081E24D /* CreatnNewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatnNewPassword.swift; sourceTree = "<group>"; };
 		6A69936B2AF316B10081E24D /*  SuccessNewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SuccessNewPassword.swift"; sourceTree = "<group>"; };
+		6A69938B2AF396050081E24D /* HomeViwe1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViwe1.swift; sourceTree = "<group>"; };
+		6A69938D2AF3A5540081E24D /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
+		6A6993B32AF5D84E0081E24D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6A6993B52AF60C1E0081E24D /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		6A6993B72AF6293F0081E24D /* VidoeCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidoeCall.swift; sourceTree = "<group>"; };
+		6A6993B92AF666CD0081E24D /* FindDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDoctors.swift; sourceTree = "<group>"; };
+		6A6993BB2AF666FA0081E24D /* DoctorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetail.swift; sourceTree = "<group>"; };
+		6A6993BD2AF6674D0081E24D /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		6A6993BF2AF668080081E24D /* BookingDoctorSuccess .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookingDoctorSuccess .swift"; sourceTree = "<group>"; };
+		6A6993C12AF6683F0081E24D /* ChatwithDoctor .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatwithDoctor .swift"; sourceTree = "<group>"; };
+		6A6993C32AF6689B0081E24D /* DrugsDetail .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrugsDetail .swift"; sourceTree = "<group>"; };
+		6A6993C52AF668EE0081E24D /* MessageHistory .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MessageHistory .swift"; sourceTree = "<group>"; };
+		6A6993C72AF669A40081E24D /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		6A6993C92AF66ABB0081E24D /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		6A6993CB2AF66B060081E24D /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		6A6993CD2AF66BE10081E24D /* MyCart .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyCart .swift"; sourceTree = "<group>"; };
+		6A6993CF2AF66C250081E24D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6A6993D12AF66C6A0081E24D /* MyCart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCart1.swift; sourceTree = "<group>"; };
+		6A6993D32AF66C8A0081E24D /* LogOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +137,25 @@
 				6A6993672AF30B650081E24D /* VerificationeCode.swift */,
 				6A6993692AF30BAD0081E24D /* CreatnNewPassword.swift */,
 				6A69936B2AF316B10081E24D /*  SuccessNewPassword.swift */,
+				6A69938B2AF396050081E24D /* HomeViwe1.swift */,
+				6A69938D2AF3A5540081E24D /* HomeView2.swift */,
+				6A6993B92AF666CD0081E24D /* FindDoctors.swift */,
+				6A6993BB2AF666FA0081E24D /* DoctorDetail.swift */,
+				6A6993BF2AF668080081E24D /* BookingDoctorSuccess .swift */,
+				6A6993C12AF6683F0081E24D /* ChatwithDoctor .swift */,
+				6A6993B52AF60C1E0081E24D /* CallView.swift */,
+				6A6993BD2AF6674D0081E24D /* Appointment.swift */,
+				6A6993B72AF6293F0081E24D /* VidoeCall.swift */,
+				6A6993C92AF66ABB0081E24D /* ScheduleData.swift */,
+				6A6993C52AF668EE0081E24D /* MessageHistory .swift */,
+				6A6993C72AF669A40081E24D /* Articles.swift */,
+				6A6993CB2AF66B060081E24D /* Pharmacy.swift */,
+				6A6993C32AF6689B0081E24D /* DrugsDetail .swift */,
+				6A6993CD2AF66BE10081E24D /* MyCart .swift */,
+				6A6993D12AF66C6A0081E24D /* MyCart1.swift */,
+				6A6993B32AF5D84E0081E24D /* MapView.swift */,
+				6A6993CF2AF66C250081E24D /* ProfileView.swift */,
+				6A6993D32AF66C8A0081E24D /* LogOut.swift */,
 				6A0E8E602AE842FE0091D21C /* OnbordingView.swift */,
 			);
 			path = SehamLab;
@@ -184,21 +241,40 @@
 			files = (
 				6A103B7A2AE5BA4F00DB3927 /* ContentView.swift in Sources */,
 				6A6993682AF30B650081E24D /* VerificationeCode.swift in Sources */,
+				6A6993CA2AF66ABB0081E24D /* ScheduleData.swift in Sources */,
 				6A103B882AE5BD7C00DB3927 /* Doctor1View.swift in Sources */,
 				6A103BE82AE780E000DB3927 /* SignUp.swift in Sources */,
 				6A103B902AE629A100DB3927 /* LogineView.swift in Sources */,
 				6A6993642AF272300081E24D /* LoginPage.swift in Sources */,
 				6A103B8A2AE6295300DB3927 /*     Doctor2View.swift in Sources */,
+				6A69938C2AF396050081E24D /* HomeViwe1.swift in Sources */,
+				6A6993D42AF66C8A0081E24D /* LogOut.swift in Sources */,
 				6A0E8E5F2AE812D10091D21C /*    Success.swift in Sources */,
+				6A6993C02AF668080081E24D /* BookingDoctorSuccess .swift in Sources */,
+				6A6993BA2AF666CD0081E24D /* FindDoctors.swift in Sources */,
+				6A6993C62AF668EE0081E24D /* MessageHistory .swift in Sources */,
+				6A6993CE2AF66BE10081E24D /* MyCart .swift in Sources */,
+				6A6993B62AF60C1E0081E24D /* CallView.swift in Sources */,
+				6A6993BC2AF666FA0081E24D /* DoctorDetail.swift in Sources */,
+				6A69938E2AF3A5540081E24D /* HomeView2.swift in Sources */,
 				6A103B782AE5BA4F00DB3927 /* SehamLabApp.swift in Sources */,
+				6A6993C82AF669A40081E24D /* Articles.swift in Sources */,
+				6A6993D22AF66C6A0081E24D /* MyCart1.swift in Sources */,
 				6A103B862AE5BA7E00DB3927 /*  HomeView.swift in Sources */,
 				6A103B8E2AE6298800DB3927 /*     Doctor3View.swift in Sources */,
 				6A103B8C2AE6297000DB3927 /* Welcome.swift in Sources */,
 				6A69936A2AF30BAD0081E24D /* CreatnNewPassword.swift in Sources */,
 				6A6993662AF3045A0081E24D /* ForgotPassword.swift in Sources */,
+				6A6993BE2AF6674D0081E24D /* Appointment.swift in Sources */,
 				6A103BE62AE6C4B000DB3927 /* ForgotPhone.swift in Sources */,
+				6A6993D02AF66C250081E24D /* ProfileView.swift in Sources */,
+				6A6993B42AF5D84E0081E24D /* MapView.swift in Sources */,
+				6A6993C22AF6683F0081E24D /* ChatwithDoctor .swift in Sources */,
 				6A0E8E612AE842FE0091D21C /* OnbordingView.swift in Sources */,
 				6A69936C2AF316B10081E24D /*  SuccessNewPassword.swift in Sources */,
+				6A6993C42AF6689B0081E24D /* DrugsDetail .swift in Sources */,
+				6A6993CC2AF66B060081E24D /* Pharmacy.swift in Sources */,
+				6A6993B82AF6293F0081E24D /* VidoeCall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

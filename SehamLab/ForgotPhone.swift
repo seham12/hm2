@@ -9,8 +9,9 @@ import SwiftUI
 
 struct  ForgotPhone: View {
   
-        @State private var email = ""
-        @State private var phone = ""
+    @State var isShow = false
+   @Namespace var namespace
+    @State private var phone = ""
         
  var body: some View {
      
@@ -33,17 +34,36 @@ struct  ForgotPhone: View {
                          .font(.title3)
                          .foregroundColor(Color.gray)
                      
-                     //  Image(systemName: "envelope.fill")
-                     TextField("email",text: $email)
-                         .frame(width:300 , height: 30)
-                         .padding()
-                         .background(Color.gradiant)
-                         .cornerRadius(30)
-                         .background(RoundedRectangle(cornerRadius: 30)
-                             .stroke(Color.gray, lineWidth: 1))
                      
                      
+                     Button{
+                         isShow.toggle()
+                      
+                     }
+                         
+                 label:{ RoundedRectangle(cornerRadius: 25)
+                        .fill(.gray.opacity(0.3))
+                        .frame(width:350 ,height:60)
+                        
+                         .overlay {
+                             if isShow{
+                                 RoundedRectangle(cornerRadius: 25.0)
+                                     .matchedGeometryEffect(id: "titil", in: namespace)
+                                 
+                                     .frame(width: 50,height:50)
+                                 .frame(minWidth: .infinity, alignment: .trailing)}
+                             else{
+                                 RoundedRectangle(cornerRadius:25)
+                                     .matchedGeometryEffect(id: "titil", in: namespace)
+                                     
+                                    // .foregroundColor(.blue)
+                                    // .background(.black)
+                                     .frame(width: 50,height:50)
+                                 .frame(minWidth: .infinity, alignment: .leading)}
+                             }
+                             }
                      
+
                      SecureField("Phone", text: $phone)
                      // .textFieldStyle()
                          .frame(width:300 , height: 30)
@@ -51,16 +71,8 @@ struct  ForgotPhone: View {
                          .background(Color.gradiant)
                          .cornerRadius(30)
                          .background(RoundedRectangle(cornerRadius: 30)
-                             .stroke(Color.gray, lineWidth: 1)
-                         )
-                     TextField("Enter your email", text: $email)
-                         .frame(width:300 , height: 30)
-                         .padding()
-                         .background(Color.gradiant)
-                         .cornerRadius(30)
-                         .background(RoundedRectangle(cornerRadius: 30)
-                             .stroke(Color.gray, lineWidth: 1))
-                     
+                            .stroke(Color.gray, lineWidth: 1))
+                                     
                      
                      ZStack{
                        

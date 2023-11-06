@@ -68,51 +68,7 @@ struct Welcome: View {
                         
                         .padding(.leading,200)
                         .padding(.bottom)
-                        Rectangle()
-                            .fill(.gradiant)
-                            .ignoresSafeArea()
-                        
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        
-                        Rectangle()
-                            .fill(.white)
-                            .frame(width: 350, height: 430)
-                            .cornerRadius(40)
-                            .padding(.bottom,30)
-                        VStack{
-                            Image(systemName: "checkmark.circle.fill")
-                                .resizable()
-                                .frame(width: 90, height: 90)
-                                .foregroundColor(Color.red)
-                                .background(Color.gray)
-                                .cornerRadius(60)
-                            
-                            Text("Yeay!Welcome BacK")
-                                .font(.title)
-                                .fontWeight(.bold)
-                            Text("Onec again you login successfully into medidoc app")
-                                .frame(width: 340)
-                                .font(.title2)
-                                .foregroundColor(.blue)
-                                .multilineTextAlignment(.center)
-                            
-                            Button(action: {
-                                print("Email: \(email)")
-                                print("Password: \(password)")
-                            }) {
-                                Text("Login")
-                                    .font(.title2).bold()
-                            }
-                            .frame(width:300 , height: 30)
-                            // .frame(minWidth: 0, maxWidth: .infinity)
-                            .padding()
-                            .padding(.horizontal)
-                            .background(Color.color)
-                            .foregroundColor(.white)
-                            .cornerRadius(30)
-                            
-                            
-                            
+                      
                             
                             HStack{
                                 Text("Don't have an account ?")
@@ -218,15 +174,92 @@ struct Welcome: View {
                                 ) }.padding()
                             
                             
-                            //  Rectangle()
-                            //    .fill(Color.gray)
-                            //   .frame(width: 400 ,height: 400)
-                            //  .cornerRadius(10)
-                            
-                            
                         }
+                        
+                        
                     }}}
-        }}}
+        
+      
+        VStack{
+            ZStack{
+                
+            Rectangle()
+                        .foregroundColor(.gradiant)
+                        .frame(width: 350, height:350)
+                       // .background(Color.white)
+              
+                         .cornerRadius(30)
+                Image(systemName: "checkmark.circle.fill")
+                    .resizable()
+                    .frame(width: 90, height: 90)
+                    .foregroundColor(Color.gradiant)
+                    .background(Color.color)
+                    .cornerRadius(60)
+                    .padding(.bottom,200)
+                Text("Yeay!Welcome BacK")
+                    .font(.title)
+                    .fontWeight(.bold)
+                Text("Onec again you login successfully into medidoc app")
+                    .frame(width: 340)
+                    .font(.title3)
+                    .foregroundColor(.gray)
+                    .multilineTextAlignment(.center)
+                    .padding(.top,100)
+                Button(action: {
+                  
+                }) {
+                    Text("go to home")
+                        .font(.title2).bold()
+                }
+                .frame(width:150 , height: 50)
+                // .frame(minWidth: 0, maxWidth: .infinity)
+                
+                .padding(.horizontal)
+                .background(Color.color)
+                .foregroundColor(.white)
+                .cornerRadius(30)
+                .padding(.top,250)
+            }
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            Spacer()
+            
+            
+        }
+        
+        
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        
+        
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        Spacer()
+        
+        }}
 
 #Preview {
     Welcome()
